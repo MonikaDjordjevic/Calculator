@@ -24,6 +24,7 @@ public class Menu {
 	public String[] scanInput(){
 		Scanner scanner = new Scanner(System.in);
 		int inputFromUser = scanner.nextInt();
+		scanner.close();
 		
 		Input input = null;
 		
