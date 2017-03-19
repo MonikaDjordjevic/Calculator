@@ -31,7 +31,7 @@ public class FileInput implements Input {
 		
 		Scanner scanner = new Scanner(System.in);
 		String file = scanner.nextLine();
-		
+		scanner.close();
 		String filename = PATH + file;
 		
 		
