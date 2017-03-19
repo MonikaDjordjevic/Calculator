@@ -41,6 +41,8 @@ public class ConsoleInput implements Input {
 			result.set(i, result.get(i).replaceAll("koniec", ""));	
 		}
 		resultArray = result.toArray();
+		
+		scanner.close();
 		return resultArray;		
 	}
 }
